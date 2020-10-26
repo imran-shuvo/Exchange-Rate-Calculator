@@ -1,0 +1,221 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img{
+        width: 100px;
+    }
+    .container{
+        margin-left: 16%;
+        width: 200px;
+    }
+    h1{
+        font-size: 120%;
+    }
+    #descrip{
+        font-size: 70%;
+    }
+    .containerOne{
+    
+        flex: 40%;
+        margin-left: 0px
+        
+        
+       
+       
+    }
+    
+    .containerTwo{
+       
+        flex: 40%;
+        margin-right: 15%;
+        
+       
+    }
+    
+    
+    
+    select{
+        
+        padding: 5px 10px 5px 5px;
+        font-size: 8px;
+        
+        
+    }
+    .swap{
+        
+        border-radius: 5%;
+        padding:4px 12px;
+        
+        font-size:8px;
+       
+       
+    
+    }
+    
+    .div1,.div2,.div3{
+        padding: 5px;
+    }
+    .div1 input,.div3 input,.div2 p{
+        padding: 5px;
+        font-size: 8px;
+        
+    }
+    
+
+
+
+
+
+
+
+
+
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+    img{
+        width: 120px;
+    }
+    .container{
+        margin-left: 28%;
+        width: 200px;
+    }
+    h1{
+        font-size: 140%;
+    }
+    #descrip{
+        font-size: 80%;
+    }
+    .containerOne{
+    
+        flex: 40%;
+        margin-left: 0px
+        
+        
+       
+       
+    }
+    
+    .containerTwo{
+       
+        flex: 40%;
+        margin-right: 15%;
+        
+       
+    }
+    
+    
+    
+    select{
+        
+        padding: 7px 14px 8px 8px;
+        font-size: 12px;
+        
+        
+    }
+    .swap{
+        
+        border-radius: 5%;
+        padding:6px 15px;
+        
+        font-size:12px;
+       
+       
+    
+    }
+    
+    .div1,.div2,.div3{
+        padding: 13px;
+    }
+    .div1 input,.div3 input,.div2 p{
+        padding: 9px;
+        font-size: 12px;
+        
+    }
+    
+  }
+@media only screen and (min-width: 780px) {
+
+    .main-container{
+        margin: 2% 0%;
+        text-align: center;
+        
+        width: 100%;     
+    }
+
+    .container{
+        
+        width: 45%;
+        margin-left:26%;
+    
+        
+    }
+    .containerOne{
+        
+        flex: 40%;
+        margin-left: 15%;
+        
+        
+    
+    
+    }
+
+    .containerTwo{
+    
+        flex: 40%;
+        margin-right: 15%;
+        
+    
+    }
+
+    img{
+        width: 150px;
+            
+    }
+
+    h1{
+        color: #5fbaa7;
+        padding: 10px;
+        font-size: 2em;
+    }
+    #descrip{
+        padding: 15px;
+        font-size: 100%;
+        
+    }
+
+    select{
+        
+        padding: 10px 20px 10px 10px;
+        font-size: 16px;
+        
+        
+    }
+    .swap{
+        
+        border-radius: 5%;
+        padding:8px 23px;
+        outline: none;
+        font-size:15px;
+    
+    
+
+    }
+
+    .div1,.div2,.div3{
+        padding: 10px;
+    }
+    .div1 input,.div3 input,.div2 p{
+        padding: 10px;
+        font-size:16px ;
+        
+    
+    }
+    .div2 p{
+        
+        font-size: 80%;
+    
+    }
+ }

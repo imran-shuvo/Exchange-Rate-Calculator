@@ -1,0 +1,116 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+body {
+    
+    background-color: #f4f4f4;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+   
+   
+}
+
+.main-container{
+    margin: 2% 0%;
+    text-align: center;
+    
+    width: 100%;     
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    width: 45%;
+    margin-left:26%;
+   
+    
+}
+.containerOne{
+    
+    flex: 40%;
+    margin-left: 15%;
+    
+    
+   
+   
+}
+
+.containerTwo{
+   
+    flex: 40%;
+    margin-right: 15%;
+    
+   
+}
+
+img{
+    width: 150px;
+        
+}
+
+h1{
+    color: #5fbaa7;
+    padding: 10px;
+    font-size: 2em;
+}
+#descrip{
+    padding: 15px;
+    font-size: 100%;
+    
+}
+
+select{
+    border:1px solid #dedede;
+    padding: 10px 20px 10px 10px;
+    font-size: 16px;
+    outline: none;
+    /* appearance: none; */
+    background-color: transparent;
+    
+}
+.swap{
+    border: 1px solid black;
+    border-radius: 5%;
+    padding:8px 23px;
+    outline: none;
+    font-size:15px;
+    display:inline-block;
+    color: #fff;
+    background-color:#5fbaa7;
+   
+
+}
+
+.div1,.div2,.div3{
+    padding: 10px;
+}
+.div1 input,.div3 input,.div2 p{
+    padding: 10px;
+    background-color:#f4f4f4;
+    border:none;
+    outline: none;
+    text-align: end;
+    font-size: large;
+}
+.div2 p{
+    color: #5fba;
+    font-size: 80%;
+    /* text-align: center; */
+
+}
+
