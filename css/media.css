@@ -1,10 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
     img{
         width: 100px;
     }
     .container{
-        margin-left: 16%;
+        margin-left: 24%;
         width: 200px;
     }
     h1{
@@ -16,10 +17,7 @@
     .containerOne{
     
         flex: 40%;
-        margin-left: 0px
-        
-        
-       
+        margin-left: 0px;
        
     }
     

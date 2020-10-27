@@ -8,11 +8,7 @@
     box-sizing: border-box;
 }
 
-/* .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-} */
+
 
 body {
     
@@ -108,7 +104,7 @@ select{
     font-size: large;
 }
 .div2 p{
-    color: #5fba;
+    color: crimson;
     font-size: 80%;
     /* text-align: center; */
 
